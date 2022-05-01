@@ -71,7 +71,8 @@ for yi in range(noVars):
         ax.plot(np.quantile(samples[:, xi], .9999), np.quantile(samples[:, yi], .9999), "sC4", lw=0.5)
 
 #plt.show()
-figure.savefig("corner.tif", dpi = 500)
+figure.savefig("corner.tif", dpi = 400)
+
 
 # xlim = [0,30] #Tp.min(), Tp.max()
 # ylim = [0,10] #Hs.min(), Hs.max()
